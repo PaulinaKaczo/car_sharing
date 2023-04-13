@@ -559,3 +559,69 @@ html, body {
     }
 }
 
+/*FOOTER   */
+
+.footer__container {
+    background-color: #28272C;
+}
+
+.footer__box {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 141px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.logo__footer {
+    width: 100%;
+    max-width: var(--max-width);
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+.logo__text--footer {
+    font-size: 1.5625rem;
+    font-weight: bold;
+    max-width: var(--max-width);
+}
+
+.footer--menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--menu a {
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--secondary-color);
+    line-height: 25px;
+}
+
+.footer--menu a:hover {
+    color: var(--primary-color);
+}
+
+.footer {
+    position: absolute;
+    color: #D1D1D1;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    bottom: 30px;
+    right: -40px;
+}
+
+@media only screen and (max-width: 1190px) {
+    .footer {
+        right: calc( 20% - 40px);
+        bottom: 20px;
+    }
+}
+

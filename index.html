@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
 
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/app.css">
+
 </head>
 <body>
 
@@ -21,17 +22,20 @@
     <div class="intro__mask">
     <header class="header">
         <div class="header__wrapper">
-            <a href="/" class="logo">
+            <a href="#" class="logo">
                 <img src="./src/images/logo.svg" alt="Logo Car Sharing Company" class="logo__img">
                 <span class="logo__text logo__text--primary">CAR</span>
                 <span class="logo__text">Sharing</span>
             </a>
+            <input type="checkbox" name="menu" id="menu" class="hamburger"/>
             <nav class="mainMenu">
+
                 <a href="#intro" class="mainMenu__item mainMenu__item--active">Home</a>
                 <a href="#blog" class="mainMenu__item">Blog</a>
                 <a href="#service" class="mainMenu__item">Service</a>
                 <a href="#contact" class="mainMenu__item">Contact</a>
             </nav>
+
         </div>
     </header>
         <section class="box__wrapper hero">
@@ -53,19 +57,19 @@
         <h2 class="blog__hdl">Blog</h2>
         <section class="blog__box">
             <div class="blog__col">
-                <img src="" alt="" class="blog__img1">
+                <img src="./src/images/photo1.png" alt="" class="blog__img">
                 <h3 class="blog__title">Lorem ipsum dolor sit</h3>
                 <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="" class="blog__link btn btn-primary">Read More</a>
             </div>
             <div class="blog__col">
-                <img src="" alt="" class="blog__img2">
+                <img src="./src/images/photo2.png" alt="" class="blog__img">
                 <h3 class="blog__title">Lorem ipsum dolor sit</h3>
                 <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="" class="blog__link btn btn-primary">Read More</a>
             </div>
             <div class="blog__col">
-                <img src="" alt="" class="blog__img3">
+                <img src="./src/images/photo3.png" alt="" class="blog__img">
                 <h3 class="blog__title">Lorem ipsum dolor sit</h3>
                 <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="" class="blog__link btn btn-primary">Read More</a>
@@ -73,6 +77,42 @@
         </section>
     </div>
 </div>
+
+
+
+<div class="service__container" id="service">
+    <div class="box__wrapper service">
+        <h2 class="service__hdl">Service</h2>
+        <section class="service__box">
+            <div class="service__col">
+                <img src="./src/images/mini1.png" alt="" class="service__img">
+                <h3 class="service__title">Lorem ipsum dolor sit</h3>
+                <p class="block__text__service">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="service__link btn btn-primary">Read More</a>
+            </div>
+            <div class="service__col">
+                <img src="./src/images/mini2.png" alt="" class="service__img">
+                <h3 class="service__title">Lorem ipsum dolor sit</h3>
+                <p class="block__text__service">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="service__link btn btn-primary">Read More</a>
+            </div>
+            <div class="service__col">
+                <img src="./src/images/mini3.png" alt="" class="service__img">
+                <h3 class="service__title">Lorem ipsum dolor sit</h3>
+                <p class="block__text__service">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="service__link btn btn-primary">Read More</a>
+            </div>
+            <div class="service__col">
+                <img src="./src/images/mini4.png" alt="" class="service__img">
+                <h3 class="service__title">Lorem ipsum dolor sit</h3>
+                <p class="block__text__service">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="service__link btn btn-primary">Read More</a>
+            </div>
+        </section>
+    </div>
+</div>
+
+
 
 
 </body>
